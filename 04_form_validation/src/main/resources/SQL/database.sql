@@ -1,4 +1,4 @@
---CREATE DATABASE coches
+-- CREATE DATABASE coches
 
 CREATE TABLE `coche` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
@@ -7,6 +7,6 @@ CREATE TABLE `coche` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
---Algunos inset de ejemplo
+-- Algunos inset de ejemplo
 INSERT INTO coche(name,price) VALUES('Mercedes',500000);
 

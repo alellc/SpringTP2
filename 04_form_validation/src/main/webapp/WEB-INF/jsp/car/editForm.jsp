@@ -22,12 +22,12 @@
 			</div>
 			<div class="form-group">
 				<label>Name</label>
-				<input type="text" name="name" />
+				<input type="text" name="name" value="${car.name}"/>
 				<form:errors path="name" cssclass="error"></form:errors>
 			</div>
 			<div class="form-group">
 				<label>Price</label>
-				<input type="text" name="price" />
+				<input type="text" name="price" value="${car.price}"/>
 				<form:errors path="price" cssclass="error"></form:errors>
 			</div>
 
